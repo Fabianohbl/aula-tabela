@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas </title>
+    <style>
+        th, td{border: 1px solid black}
+        tfoot{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabela de produdos em estoque </h1>
+     <!-- <p>A TAG <table a tabela em geral></table>
+        a TAG <thead>representa o cabeçalho</thead>
+        a Tag <tr>representa a linha </tr>
+        a Tag <th>representa a coluna </th>
+        a Tag <tbody>vai dizer sobrre o corpo dos dados </tbody>
+        a Tag <td> diz respeito aos dados de cada coluna da tabela </td>
+        para colocar uma borda logo a baixo do titulo criar a tag <style></style>
+        colocando que em cada <th>coluna </th>e <tr>linha </tr> vai ter border e cor 
+        podemos utilizae atributios na tag <td>colspan serve para expandir a coluna 
+
+        </td>
+        colocando em cada <td>rowspan serve para expandir a linha </td>
+
+        a Tag <tfoot> serve para colocar um rodapé na tabela </tfoot>
+
+
+
+     </p> -->
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>quantidade</th>
+                <th>preço</th>
+                <th> black friday </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camiseta</td>
+                <td>10</td>
+                <td>R$50,00</td>
+                <td>Sim</td>
+
+            </tr>
+            <tr>
+                <td>Bermuda</td>
+                <td>10</td>
+                <td>R$45,00</td>
+                <td>sim</td>
+            </tr>
+            <tr>
+                <td>Tenis</td>
+                <td>10</td>
+                <td>R$150,00</td>
+                <td>não</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>R$245</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
